@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NattBatch", "NattBatch\Natt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{6E22ED52-3220-46FB-8370-641356F633B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceWebben", "ECommerceWebben\ECommerceWebben.csproj", "{D88214CC-D746-4591-91B6-370C66112684}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6E22ED52-3220-46FB-8370-641356F633B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E22ED52-3220-46FB-8370-641356F633B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E22ED52-3220-46FB-8370-641356F633B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D88214CC-D746-4591-91B6-370C66112684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D88214CC-D746-4591-91B6-370C66112684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D88214CC-D746-4591-91B6-370C66112684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D88214CC-D746-4591-91B6-370C66112684}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

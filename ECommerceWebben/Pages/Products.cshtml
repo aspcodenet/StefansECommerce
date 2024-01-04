@@ -1,0 +1,11 @@
+﻿@page
+@model ECommerceWebben.Pages.ProductsModel
+@{
+    <h1>@Model.ProductName</h1>
+    <ul>
+        @foreach(var productName in Model.AllProducts)
+        {
+            <li>@productName</li>            
+        }
+    </ul>
+}
