@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NattBatch", "NattBatch\NattBatch.csproj", "{C4C47400-9635-4A60-8259-5F33852F74E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NattBatch", "NattBatch\NattBatch.csproj", "{C4C47400-9635-4A60-8259-5F33852F74E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{6E22ED52-3220-46FB-8370-641356F633B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{6E22ED52-3220-46FB-8370-641356F633B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceWebben", "ECommerceWebben\ECommerceWebben.csproj", "{D88214CC-D746-4591-91B6-370C66112684}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerceWebben", "ECommerceWebben\ECommerceWebben.csproj", "{D88214CC-D746-4591-91B6-370C66112684}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternalAdminWeb", "InternalAdminWeb\InternalAdminWeb.csproj", "{3DF8BC3D-7AE4-41F7-80FA-A467E651F4EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{D88214CC-D746-4591-91B6-370C66112684}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D88214CC-D746-4591-91B6-370C66112684}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D88214CC-D746-4591-91B6-370C66112684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DF8BC3D-7AE4-41F7-80FA-A467E651F4EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DF8BC3D-7AE4-41F7-80FA-A467E651F4EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DF8BC3D-7AE4-41F7-80FA-A467E651F4EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DF8BC3D-7AE4-41F7-80FA-A467E651F4EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

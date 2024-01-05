@@ -1,0 +1,31 @@
+﻿@page
+@model InternalAdminWeb.Pages.ProductsModel
+@{
+}
+
+<h1>@Model.StefansName</h1>
+<p>This is a paragraph.</p>
+<h3>Alla produkter</h3>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>ProduktId</th>
+        <th>Produtnamn</th>
+        <th>Pris</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model.AllProducts)
+        {
+            <tr>
+                <td>@product.ProductId</td>
+                <td>@product.ProductName</td>
+                <td>@product.UnitPrice</td>
+                <td><a asp-page="Product" asp-route-productId="@product.ProductId">EDIT</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+

@@ -9,6 +9,13 @@ namespace BusinessLogic
         {
             context = new NorthWindContext();
         }
+
+        public List<Product> GetAllProducts()
+        {
+            return context.Products.ToList();
+        }
+
+
         public List<string> GetAllNames()
         {
             return context.Products.Select(p=>p.ProductName).ToList();
